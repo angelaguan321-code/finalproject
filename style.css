@@ -9,12 +9,23 @@
   left: 0;
 }
 
-
-
 .navbar a{
   text-align: center;
   text-decoration: none;
   color: white;
   font-size: 30px;
   padding: 10px;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: ;
+  grid-template-rows: ;
+  grid-gap: 10px;
+}
+
+.item{
+  background-color: #FFE6EE;
+  color: black;
+  text-align: center;
 }
