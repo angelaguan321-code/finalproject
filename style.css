@@ -19,8 +19,8 @@
 
 .container{
   display: grid;
-  grid-template-columns: auto 500px auto;
-  grid-template-rows: 125px 150px auto;
+  grid-template-columns: auto 300px 100px 300px auto;
+  grid-template-rows: 125px 150px 150px 150px auto;
   grid-gap: 10px;
 }
 
@@ -33,9 +33,17 @@
 .header1{
   font-size: 50px;
   grid-column-start: 2;
-  grid-column-end: 3;
+  grid-column-end: 5;
   grid-row-start: 2;
   grid-row-end: 3;
   background-color: transparent;
 }
+
+.introduction{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+  
   
