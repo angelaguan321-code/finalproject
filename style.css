@@ -1,1 +1,16 @@
+.navbar{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: #898989;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+}
 
+.navbar a{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+}
