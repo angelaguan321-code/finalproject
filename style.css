@@ -40,11 +40,13 @@
 }
 
 .introduction{
-  font-size: 25px;
+  font-size: 20px;
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: 4;
   grid-row-end: 5;
+  height: 300px;
+  padding: 20px;
 }
   
   
