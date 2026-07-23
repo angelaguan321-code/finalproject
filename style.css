@@ -19,8 +19,8 @@
 
 .container{
   display: grid;
-  grid-template-columns: ;
-  grid-template-rows: ;
+  grid-template-columns: auto 300px auto;
+  grid-template-rows: 125px 150px auto;
   grid-gap: 10px;
 }
 
@@ -29,3 +29,11 @@
   color: black;
   text-align: center;
 }
+
+.header1{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+  
