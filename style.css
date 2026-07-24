@@ -20,7 +20,7 @@
 .container{
   display: grid;
   grid-template-columns: auto 100px 300px 100px 300px 100px auto;
-  grid-template-rows: 75px 300px 50px 200px auto;
+  grid-template-rows: 10px 275px 50px 200px auto;
   grid-gap: 10px;
 }
 
@@ -38,7 +38,7 @@
   grid-column-end: 6;
   grid-row-start: 2;
   grid-row-end: 3;
-  background-color: transparent;
+  background-color: white;
 }
 
 .introduction{
