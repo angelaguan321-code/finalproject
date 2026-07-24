@@ -20,7 +20,7 @@
 .container{
   display: grid;
   grid-template-columns: auto 100px 300px 100px 300px 100px auto;
-  grid-template-rows: 125px 325px 50px 200px auto;
+  grid-template-rows: 75px 300px 50px 200px auto;
   grid-gap: 10px;
 }
 
