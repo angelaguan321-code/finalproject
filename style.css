@@ -28,8 +28,8 @@
   background-color: #FFE6EE;
   color: black;
   text-align: center;
-  border-radius: 12px; /* rounded corners for each grid item */
-  overflow: hidden;    /* clip children to the rounded shape */
+  border-radius: 12px;
+  overflow: hidden;
 }
 
 .header1{
@@ -49,10 +49,8 @@
   grid-row-end: 5;
   height: 250px;
   padding: 20px;
-
-  /* make the introduction box corners rounded */
   border-radius: 12px;
-  background-color: #FFE6EE; /* ensure the rounded corners are visible */
+  background-color: #FFE6EE;
   overflow: hidden;
 }
 
